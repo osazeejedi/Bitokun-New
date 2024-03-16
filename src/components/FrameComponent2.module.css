@@ -1,0 +1,164 @@
+.frameChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+.lottery,
+.pool {
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.lottery {
+  margin: 0 !important;
+  width: 624px;
+  height: 144px;
+  position: absolute;
+  top: 357px;
+  left: -430px;
+  font-size: inherit;
+  background: linear-gradient(95.6deg, #6535cb, #fff 46.35%, #3600a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pool {
+  margin: 0;
+  width: 394px;
+  height: 132px;
+  position: relative;
+  font-size: var(--font-size-91xl);
+  text-transform: uppercase;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.joinLottery,
+.joinLotteryWrapper {
+  display: flex;
+  justify-content: center;
+}
+.joinLottery {
+  width: 136px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-indigo-200);
+  text-align: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.joinLotteryWrapper {
+  cursor: pointer;
+  border: 1px solid var(--aqxaxa);
+  padding: var(--padding-2xs) var(--padding-xl);
+  background-color: var(--aqxaxa);
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+  z-index: 3;
+}
+.ticketsSold {
+  position: relative;
+  z-index: 2;
+}
+.dropdownMenu,
+.ticketsSoldWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-55xl) var(--padding-0)
+    var(--padding-54xl);
+}
+.dropdownMenu {
+  margin-left: -267px;
+  width: 319px;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inter);
+}
+.bitokunDecentralizedLottery,
+.isASmart,
+.toUseOur {
+  margin: 0;
+}
+.bitokunDecentralizedLotteryContainer {
+  width: 616px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 615px;
+  left: -426px;
+  font-size: var(--font-size-lg);
+  line-height: 168.02%;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  text-align: center;
+  display: inline-block;
+  z-index: 3;
+}
+.frameParent,
+.plateIcon {
+  margin: 0 !important;
+  position: absolute;
+}
+.plateIcon {
+  width: 252.6px;
+  height: 246.7px;
+  top: 436px;
+  right: 75.9px;
+  border-radius: var(--br-981xl);
+  object-fit: contain;
+  z-index: 3;
+}
+.frameParent {
+  width: 704.5px;
+  right: -102.5px;
+  bottom: -406px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-473xl) var(--padding-0) var(--padding-462xl);
+  box-sizing: border-box;
+  gap: var(--gap-151xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-101xl);
+  color: var(--aqxaxa);
+  font-family: var(--font-monument-extended);
+}
+@media screen and (max-width: 750px) {
+  .lottery {
+    font-size: var(--font-size-29xl);
+  }
+  .pool {
+    font-size: var(--font-size-36xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .lottery {
+    font-size: var(--font-size-11xl);
+  }
+  .pool {
+    font-size: var(--font-size-14xl);
+  }
+}

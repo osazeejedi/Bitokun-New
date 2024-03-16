@@ -1,0 +1,249 @@
+.savingsLotteryInfoChild {
+  height: 43px;
+  width: 209px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.savingsContractAddress1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.savingsLotteryInfo {
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--aqxaxa);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs);
+  white-space: nowrap;
+}
+.nsbdsdjnsjdsd02564lhj5hj95ggbf {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  font-weight: 300;
+}
+.contractAddressDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 187px;
+}
+.linearArrowsArrowRight {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.contractAddressDetailsParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.contractAddressDetailsParent,
+.frameWrapper,
+.savingsLotteryInfoParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 207px;
+}
+.savingsLotteryInfoParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-15xl);
+}
+.frameChild {
+  height: 43px;
+  width: 209px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.lotteryContractAddress {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--aqxaxa);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-mini);
+  white-space: nowrap;
+}
+.nsbdsdjnsjdsd02564lhj5hj95ggbf1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  font-weight: 300;
+}
+.nsbdsdjnsjdsd02564lhj5hj95ggbfWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 187px;
+}
+.linearArrowsArrowRight1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 207px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-15xl);
+}
+.frameItem {
+  height: 43px;
+  width: 209px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.yieldSource {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.rectangleGroup {
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--aqxaxa);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-14xl);
+  white-space: nowrap;
+}
+.nsbdsdjnsjdsd02564lhj5hj95ggbf2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  font-weight: 300;
+}
+.nsbdsdjnsjdsd02564lhj5hj95ggbfContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 187px;
+}
+.linearArrowsArrowRight2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameWrapper1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 207px;
+}
+.frameDiv,
+.frameWrapper1,
+.savingsContractAddress {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-15xl);
+}
+.savingsContractAddress {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--aqxaxa);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .frameDiv,
+  .frameParent,
+  .savingsLotteryInfoParent {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contractAddressDetailsParent,
+  .frameGroup,
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+}

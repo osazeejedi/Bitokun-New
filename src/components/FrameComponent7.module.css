@@ -1,0 +1,279 @@
+.frameChild {
+  width: 541px;
+  height: 1230px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.dailyPrize {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.hourSecTimer {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.dailyPrizeDisplay,
+.div,
+.hourSecTimer {
+  align-self: stretch;
+  display: flex;
+}
+.div {
+  height: 90px;
+  position: relative;
+  font-size: var(--font-size-56xl);
+  font-family: var(--font-monument-extended);
+  background: linear-gradient(267.68deg, #f720fc, #ffd600 58.65%, #35f0d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.dailyPrizeDisplay {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.joinLotteryPool {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.joinLotteryPoolNowWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-2xl) var(--padding-0)
+    var(--padding-xl);
+}
+.frameItem {
+  width: 351px;
+  height: 142px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-blueviolet-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.myTlckets10 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  white-space: pre-wrap;
+  z-index: 2;
+}
+.myTlckets10Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-35xl) var(--padding-0)
+    var(--padding-28xl);
+}
+.frameInner {
+  height: 48px;
+  width: 218px;
+  position: relative;
+  background-color: var(--aqxaxa);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.playLottery {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.rectangleContainer,
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  background-color: var(--aqxaxa);
+  border: 1px solid var(--aqxaxa);
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-48xl) var(--padding-smi)
+    var(--padding-49xl);
+  white-space: nowrap;
+  z-index: 2;
+  color: var(--color-indigo-200);
+}
+.rectangleGroup {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-blueviolet-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-41xl) var(--padding-10xl)
+    var(--padding-52xl);
+  gap: var(--gap-6xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.vlewMyTlckets {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.spacerElement {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  font-size: var(--font-size-smi);
+}
+.frameParent,
+.logoImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.logoImage {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-10xl);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-3xl) var(--padding-0)
+    var(--padding-4xl);
+  box-sizing: border-box;
+}
+.dailyPrizeDisplayParent,
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dailyPrizeDisplayParent {
+  width: 396px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-14xl-5);
+}
+.frameWrapper {
+  width: 446px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2xs) var(--padding-0);
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  height: 48px;
+  width: 294px;
+  position: relative;
+  background-color: var(--aqxaxa);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.claimPrize {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.groupDiv,
+.viewMyTicketsBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.groupDiv {
+  width: 294px;
+  background-color: var(--aqxaxa);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl) var(--padding-smi);
+  white-space: nowrap;
+  z-index: 1;
+}
+.viewMyTicketsBtn {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    var(--padding-12xs);
+  color: var(--color-indigo-200);
+}
+.rectangleParent {
+  width: 541px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-3xl) var(--padding-208xl)
+    var(--padding-xl);
+  gap: var(--gap-37xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--aqxaxa);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-129xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .div {
+    font-size: var(--font-size-41xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    gap: 28px 56px;
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-77xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-26xl);
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dailyPrizeDisplayParent {
+    gap: 17px 33.5px;
+  }
+}

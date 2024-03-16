@@ -1,0 +1,63 @@
+.dataTransformerIcon,
+.winningNumbers {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 612783b;
+  z-index: 1;
+}
+.dataTransformerIcon {
+  height: 62.4px;
+  width: 62.4px;
+  object-fit: contain;
+}
+.winningNumbers {
+  font-weight: 500;
+}
+.stepProgress,
+.tabsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tabsContainer {
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-0) var(--padding-0);
+}
+.stepProgress {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 11.600000000000025px;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+  z-index: 1;
+}
+.gridLayout,
+.toggleSwitch {
+  display: flex;
+  align-items: flex-start;
+}
+.gridLayout {
+  width: 28px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-smi);
+}
+.toggleSwitch {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--aqxaxa);
+  font-family: var(--font-inter);
+}

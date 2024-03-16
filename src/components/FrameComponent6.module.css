@@ -1,0 +1,190 @@
+.codeIcon {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.codeWrapper {
+  height: 40px;
+  width: 171px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-10xl) var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+}
+.dashboard {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+}
+.savingsPool {
+  position: relative;
+  white-space: nowrap;
+}
+.dashboardParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboardParent {
+  flex-direction: row;
+  gap: var(--gap-lgi);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-2xs) var(--padding-3xs) var(--padding-0)
+    var(--padding-0);
+}
+.lotteryPool {
+  position: relative;
+  white-space: nowrap;
+}
+.buttonConfirm {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.buttonConfirmWrapper,
+.ethereumSymbol,
+.ethereumSymbolWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonConfirmWrapper {
+  align-self: stretch;
+  height: 0;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-4xs) var(--padding-0)
+    var(--padding-2xs);
+  box-sizing: border-box;
+}
+.ethereumSymbol,
+.ethereumSymbolWrapper {
+  flex-direction: column;
+}
+.ethereumSymbol {
+  width: 87px;
+  gap: var(--gap-11xl);
+}
+.ethereumSymbolWrapper {
+  flex: 1;
+  padding: var(--padding-2xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ethereum {
+  position: relative;
+}
+.dailyPrizeLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-0) var(--padding-0);
+}
+.linearArrowsAltArrowRi {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.code {
+  height: 40px;
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-blueviolet-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) var(--padding-5xs)
+    var(--padding-5xl);
+  gap: var(--gap-3xs);
+}
+.x7fd7296bfc07503 {
+  position: relative;
+  letter-spacing: 0.13em;
+  line-height: 138%;
+}
+.x7fd7296bfc07503Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) var(--padding-0) var(--padding-0);
+}
+.linearArrowsAltArrowRi1,
+.tittleChild {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.tittleChild {
+  border-radius: var(--br-11xs);
+  object-fit: cover;
+}
+.linearArrowsAltArrowRi1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent,
+.tittle {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.tittle {
+  height: 40px;
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-blueviolet-100);
+  padding: var(--padding-5xs) var(--padding-mini) var(--padding-5xs)
+    var(--padding-sm);
+  font-size: var(--font-size-xs);
+  font-family: var(--font-poppins);
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--color-indigo-200);
+  border-bottom: 1px solid var(--color-darkorchid);
+  overflow: hidden;
+  padding: var(--padding-22xl) var(--padding-58xl) var(--padding-12xs)
+    var(--padding-47xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--aqxaxa);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .dashboardParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}

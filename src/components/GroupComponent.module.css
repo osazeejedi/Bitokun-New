@@ -1,0 +1,145 @@
+.frameChild {
+  align-self: stretch;
+  height: 207px;
+  border-radius: var(--br-8xs);
+}
+.claimPrizeLabelChild,
+.frameChild,
+.prizeWonLabelChild {
+  position: relative;
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.prizeWonLabelChild {
+  align-self: stretch;
+  height: 147px;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+}
+.claimPrizeLabelChild {
+  width: 421px;
+  height: 86px;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  max-width: 100%;
+}
+.totalSavings,
+.yoursVsTotal {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 3;
+}
+.yoursVsTotal {
+  display: inline-block;
+  min-width: 79px;
+  white-space: nowrap;
+}
+.claimPrizeLabel {
+  align-self: stretch;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-mini) var(--padding-7xs);
+  gap: var(--gap-lg);
+  max-width: 100%;
+  z-index: 2;
+}
+.div,
+.yourSavings {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 2;
+}
+.div {
+  width: 58px;
+  text-align: right;
+  display: inline-block;
+  min-width: 58px;
+  white-space: nowrap;
+}
+.prizeWonLabel,
+.yourTicketsLabel,
+.yourTicketsLabelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.yourTicketsLabel {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.prizeWonLabel,
+.yourTicketsLabelWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-6xl) var(--padding-0)
+    var(--padding-mini);
+  box-sizing: border-box;
+}
+.prizeWonLabel {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  border: 1px solid var(--aqxaxa);
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xl);
+  gap: var(--gap-lg);
+  z-index: 1;
+}
+.button,
+.expectedApy {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.button {
+  width: 48px;
+  text-align: right;
+  display: inline-block;
+  min-width: 48px;
+  white-space: nowrap;
+}
+.expectedApy5PerYearParent,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.expectedApy5PerYearParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper,
+.rectangleParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-6xl) var(--padding-0)
+    var(--padding-mini);
+  box-sizing: border-box;
+}
+.rectangleParent {
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--aqxaxa);
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2xl);
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--aqxaxa);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .expectedApy5PerYearParent,
+  .yourTicketsLabel {
+    flex-wrap: wrap;
+  }
+}

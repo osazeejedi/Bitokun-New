@@ -1,0 +1,298 @@
+.claimPrizeButtonChild {
+  width: 541px;
+  height: 1230px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.dailyPrize {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.div,
+.viewMyTicketsLabel {
+  align-self: stretch;
+  display: flex;
+}
+.viewMyTicketsLabel {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.div {
+  height: 90px;
+  position: relative;
+  font-size: var(--font-size-56xl);
+  font-family: var(--font-monument-extended);
+  background: linear-gradient(267.68deg, #f720fc, #ffd600 58.65%, #35f0d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buyTicketButton,
+.buyTicketButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buyTicketButton {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.buyTicketButtonWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-31xl) var(--padding-mini)
+    var(--padding-32xl);
+  box-sizing: border-box;
+}
+.joinLotteryPool {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.joinLotteryPoolNowWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-xs)
+    var(--padding-2xl);
+}
+.frameChild {
+  width: 497px;
+  height: 218px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-blueviolet-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.myTlckets0 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  white-space: pre-wrap;
+  z-index: 2;
+}
+.viewMyTicketsHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-28xl);
+}
+.frameItem {
+  height: 48px;
+  width: 218px;
+  position: relative;
+  background-color: var(--aqxaxa);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.playLottery {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.frameInner,
+.rectangleGroup {
+  border: 1px solid var(--aqxaxa);
+}
+.rectangleGroup {
+  align-self: stretch;
+  background-color: var(--aqxaxa);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-48xl) var(--padding-smi)
+    var(--padding-49xl);
+  white-space: nowrap;
+  z-index: 2;
+  color: var(--color-indigo-200);
+}
+.frameInner {
+  height: 48px;
+  width: 218px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.buyTicket {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 1;
+}
+.rectangleContainer,
+.rectangleParent {
+  align-self: stretch;
+  border: 1px solid var(--aqxaxa);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-54xl) var(--padding-smi);
+  z-index: 2;
+}
+.rectangleParent {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-blueviolet-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-113xl) var(--padding-13xl)
+    var(--padding-126xl);
+  gap: var(--gap-6xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.vlewMyTlckets {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.frameParent,
+.vlewMyTlcketsWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.vlewMyTlcketsWrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0)
+    var(--padding-3xl);
+  font-size: var(--font-size-smi);
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.rectangleDiv {
+  height: 48px;
+  width: 294px;
+  position: relative;
+  background-color: var(--aqxaxa);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: none;
+}
+.claimPrize {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.groupDiv,
+.winnerAreaInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.groupDiv {
+  width: 294px;
+  background-color: var(--aqxaxa);
+  border: 1px solid var(--aqxaxa);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl) var(--padding-smi);
+  white-space: nowrap;
+  z-index: 1;
+}
+.winnerAreaInner {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0)
+    var(--padding-2xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-indigo-200);
+}
+.claimPrizeButton,
+.winnerArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.winnerArea {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-37xl);
+  font-size: var(--font-size-lg);
+}
+.claimPrizeButton {
+  width: 541px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-indigo-200);
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: var(--padding-31xl) var(--padding-2xl) var(--padding-121xl);
+  gap: var(--gap-52xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--aqxaxa);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .claimPrizeButton {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .div {
+    font-size: var(--font-size-41xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .buyTicketButtonWrapper,
+  .rectangleParent {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-left: var(--padding-53xl);
+    padding-right: var(--padding-47xl);
+  }
+  .winnerArea {
+    gap: 28px 56px;
+  }
+  .claimPrizeButton {
+    gap: 35px 71px;
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-26xl);
+  }
+  .claimPrizeButton {
+    gap: 18px 71px;
+  }
+}

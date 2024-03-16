@@ -1,0 +1,108 @@
+.dashboardInfoIcon {
+  height: 40px;
+  width: 142px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 40px;
+}
+.aboutLottery,
+.contactUs,
+.howItWorks {
+  position: relative;
+  white-space: nowrap;
+}
+.fAQItem,
+.fAQItemWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.fAQItem {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fAQItemWrapper {
+  width: 432px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dashboard {
+  position: relative;
+}
+.dashboardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-0) var(--padding-0);
+}
+.linearArrowsAltArrowRi {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dashboardInfo,
+.nome,
+.nomeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dashboardInfo {
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-blueviolet-100);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-5xs)
+    var(--padding-sm);
+  gap: var(--gap-3xs);
+}
+.nome,
+.nomeWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nome {
+  flex: 1;
+  background-color: var(--color-indigo-200);
+  border-bottom: 1px solid var(--color-darkorchid);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-22xl) var(--padding-47xl) var(--padding-xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--aqxaxa);
+  font-family: var(--font-inter);
+}
+.nomeWrapper {
+  height: 158.2px;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 57.200000000000045px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+@media screen and (max-width: 750px) {
+  .fAQItem {
+    display: none;
+  }
+  .fAQItemWrapper {
+    width: 0;
+  }
+  .nome {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}

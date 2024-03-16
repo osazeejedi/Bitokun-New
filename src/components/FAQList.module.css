@@ -1,0 +1,397 @@
+.howDoesCrypto {
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.howDoesCryptoSavingsWorkParent {
+  height: 34px;
+  border: 0.5px solid var(--aqxaxa);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-6xl) var(--padding-8xs)
+    var(--padding-5xl);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.aSetPeriod,
+.cryptoSavingsIs,
+.inReturnFor {
+  margin: 0;
+}
+.cryptoSavingsIsContainer {
+  position: relative;
+  line-height: 133.52%;
+  font-weight: 300;
+}
+.fAQListInner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.fAQListInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.whatIsThe {
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.amountsInfo,
+.lotterySettings {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.amountsInfo {
+  align-self: stretch;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-2xs) var(--padding-8xs)
+    var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.lotterySettings {
+  height: 44px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.howLongCan {
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.howLongCanYouSaveParent,
+.lotterySettings1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.howLongCanYouSaveParent {
+  align-self: stretch;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-6xs);
+  gap: var(--gap-3xs);
+}
+.lotterySettings1 {
+  height: 44px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+  box-sizing: border-box;
+}
+.areThereWithdrawal {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.areThereWithdrawalFeesParent,
+.lotterySettings2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.areThereWithdrawalFeesParent {
+  align-self: stretch;
+  flex: 1;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-base);
+  gap: var(--gap-3xs);
+}
+.lotterySettings2 {
+  width: 329px;
+  height: 44px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.areThereWithdrawal1 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.areThereWithdrawalFeesGroup,
+.lotterySettings3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.areThereWithdrawalFeesGroup {
+  align-self: stretch;
+  flex: 1;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-base);
+  gap: var(--gap-3xs);
+}
+.lotterySettings3 {
+  width: 329px;
+  height: 44px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.howAreThe {
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.howAreTheLotteryTicketsAlParent,
+.lotterySettings4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howAreTheLotteryTicketsAlParent {
+  align-self: stretch;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-sm);
+  gap: var(--gap-3xs);
+}
+.lotterySettings4 {
+  height: 44px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.howDoesThe {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 34px);
+}
+.linearArrowsAltArrowRi6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.howDoesTheCryptoLotteryWoParent,
+.lotterySettings5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howDoesTheCryptoLotteryWoParent {
+  flex: 1;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.lotterySettings5 {
+  width: 428px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.canYouLose {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 34px);
+}
+.linearArrowsAltArrowRi7 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.canYouLoseYourCryptoFromParent,
+.lotterySettings6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.canYouLoseYourCryptoFromParent {
+  flex: 1;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-smi) var(--padding-8xs)
+    var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.lotterySettings6 {
+  width: 491px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.howLongDoes {
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi8 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.howLongDoesItTakeToWinIParent,
+.lotterySettings7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howLongDoesItTakeToWinIParent {
+  align-self: stretch;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-lgi);
+  gap: var(--gap-3xs);
+}
+.lotterySettings7 {
+  height: 44px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.whatAreLottery {
+  position: relative;
+  font-weight: 600;
+}
+.linearArrowsAltArrowRi9 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+}
+.lotterySettings8,
+.whatAreLotterySmartContracParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.whatAreLotterySmartContracParent {
+  align-self: stretch;
+  border: 0.5px solid var(--aqxaxa);
+  padding: var(--padding-8xs) var(--padding-7xs);
+  gap: var(--gap-3xs);
+}
+.lotterySettings8 {
+  height: 44px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.helpCenterIcon {
+  width: 323px;
+  height: 34.2px;
+  object-fit: contain;
+  max-width: 100%;
+}
+.fAQList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 4.263256414560601e-14px;
+  box-sizing: border-box;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--aqxaxa);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .howDoesCrypto {
+    font-size: var(--font-size-base);
+  }
+  .cryptoSavingsIsContainer {
+    line-height: 21px;
+  }
+  .areThereWithdrawal,
+  .areThereWithdrawal1,
+  .canYouLose,
+  .cryptoSavingsIsContainer,
+  .howAreThe,
+  .howDoesThe,
+  .howLongCan,
+  .howLongDoes,
+  .whatAreLottery,
+  .whatIsThe {
+    font-size: var(--font-size-base);
+  }
+  .fAQList {
+    gap: 17px 34px;
+  }
+}

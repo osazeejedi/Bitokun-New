@@ -1,0 +1,434 @@
+.gridChild {
+  width: 1440px;
+  height: 784px;
+  position: relative;
+  background-color: var(--color-turquoise);
+  display: none;
+  max-width: 100%;
+}
+.howItWorks {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  font-weight: 800;
+  font-family: inherit;
+  background: linear-gradient(96.67deg, #fff, #ddfffa 58.95%, #79ffeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.howItWorksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-46xl);
+}
+.swiftnessAvailableOn {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  z-index: 1;
+}
+.frameParent,
+.gridInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.gridInner {
+  width: 1188px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-11xs) var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+}
+.div {
+  width: 57px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-2xl) var(--padding-0)
+    var(--padding-xl);
+}
+.deposit {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.depositWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0)
+    var(--padding-6xl);
+}
+.depositIntoThe {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  text-align: center;
+  z-index: 1;
+}
+.frameGroup,
+.oval {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  margin-top: -3px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+}
+.oval {
+  width: 320px;
+}
+.svgrepoiconcarrier {
+  width: 66px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.svgrepoiconcarrierWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0)
+    var(--padding-5xl);
+}
+.joinLotteryPool {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.joinLotteryPoolWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-6xl) var(--padding-0)
+    var(--padding-44xl);
+}
+.joinTheLottery {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  text-align: center;
+  z-index: 1;
+}
+.frameContainer,
+.oval1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  margin-top: -3px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+}
+.oval1 {
+  width: 326px;
+  padding: var(--padding-0) var(--padding-7xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.div1 {
+  width: 66px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-5xl) var(--padding-0)
+    var(--padding-xl);
+}
+.checkForPrizes {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 138%;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.checkForPrizesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-28xl) var(--padding-0)
+    var(--padding-35xl);
+}
+.completeSelectionOf {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  text-align: center;
+  z-index: 1;
+}
+.frameDiv,
+.oval2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  margin-top: -3px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+}
+.oval2 {
+  width: 320px;
+}
+.frameChild,
+.triangle {
+  align-self: stretch;
+  max-width: 100%;
+}
+.triangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleWrapper {
+  height: 210px;
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-12xs);
+  box-sizing: border-box;
+}
+.svgrepoiconcarrier1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.svgrepoiconcarrierContainer {
+  height: 211px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-10xl) var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 212.3px;
+  width: 212.3px;
+  position: relative;
+  object-fit: cover;
+  min-height: 212px;
+  z-index: 1;
+}
+.frameParent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.grid,
+.square,
+.squareInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.squareInner {
+  width: 1166.3px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-10xl);
+  box-sizing: border-box;
+}
+.grid,
+.square {
+  flex-direction: column;
+}
+.square {
+  width: 1188px;
+  align-items: flex-start;
+  gap: 36.60000000000002px;
+  font-family: var(--font-monument-extended);
+}
+.grid {
+  align-self: stretch;
+  background-color: var(--color-turquoise);
+  align-items: center;
+  padding: var(--padding-49xl) var(--padding-xl) var(--padding-23xl)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-57xl);
+  text-align: left;
+  font-size: var(--font-size-62xl);
+  color: var(--aqxaxa);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .triangle {
+    justify-content: center;
+  }
+  .frameParent1,
+  .triangle {
+    flex-wrap: wrap;
+  }
+  .grid {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .howItWorks {
+    font-size: var(--font-size-21xl);
+    line-height: 67px;
+  }
+  .howItWorksWrapper {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .div,
+  .div1,
+  .svgrepoiconcarrier {
+    font-size: var(--font-size-21xl);
+    line-height: 67px;
+  }
+  .square {
+    gap: 18px 36.60000000000002px;
+  }
+  .grid {
+    gap: 38px 76px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howItWorks {
+    font-size: var(--font-size-5xl);
+    line-height: 45px;
+  }
+  .swiftnessAvailableOn {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .div {
+    font-size: var(--font-size-5xl);
+    line-height: 45px;
+  }
+  .deposit {
+    font-size: var(--font-size-xl);
+    line-height: 28px;
+  }
+  .svgrepoiconcarrier {
+    font-size: var(--font-size-5xl);
+    line-height: 45px;
+  }
+  .joinLotteryPool {
+    font-size: var(--font-size-xl);
+    line-height: 28px;
+  }
+  .joinLotteryPoolWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .div1 {
+    font-size: var(--font-size-5xl);
+    line-height: 45px;
+  }
+  .checkForPrizes {
+    font-size: var(--font-size-xl);
+    line-height: 28px;
+  }
+  .checkForPrizesWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .grid {
+    gap: 19px 76px;
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
